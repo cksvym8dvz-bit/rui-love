@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>7 Months Message</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="lock-screen" id="lockScreen">
+    <div class="lock-box">
+      <h2 class="lock-title">SECRET</h2>
+      <p class="lock-text">合言葉を入力してください。</p>
+      <input type="password" class="password-input" id="passwordInput" placeholder="password">
+      <button class="unlock-btn" id="unlockBtn">OPEN</button>
+      <p class="error" id="errorText">passwordが違います。</p>
+    </div>
+  </div>
+
+  <div class="sparkles">
+    <span class="sparkle" style="top:8%; left:18%; animation-delay:0s;"></span>
+    <span class="sparkle" style="top:12%; left:35%; animation-delay:1s;"></span>
+    <span class="sparkle" style="top:7%; left:55%; animation-delay:2s;"></span>
+    <span class="sparkle" style="top:14%; left:72%; animation-delay:0.5s;"></span>
+    <span class="sparkle" style="top:10%; left:88%; animation-delay:1.7s;"></span>
+  </div>
+
+  <main class="site">
+    <h1 class="title">7 month thank you!!</h1>
+
+    <div class="frame-wrap">
+      <div class="denim-card"></div>
+      <div class="stitch stitch-left"></div>
+      <div class="stitch stitch-right"></div>
+
+      <div class="message-box">
+        <img src="photo1.jpg" class="memory-photo show" id="memoryPhoto" alt="memory">
+        <div class="message-text" id="messageBox">Press the button...</div>
+      </div>
+    </div>
+
+    <button id="button">押してね❤</button>
+
+    <p class="footer">for you · 7 months</p>
+  </main>
+
+  <audio id="bgm" loop>
+    <source src="music.mp3" type="audio/mp3">
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
